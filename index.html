@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLawn Pro | Professional Lawn Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">GreenLawn<span>Pro</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="btn btn-primary">Book Now</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>A Perfect Lawn Every Time</h1>
+                <p>Professional lawn mowing, trimming, and maintenance services for residential and commercial properties.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">Get Free Quote</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1600585154340-963ed7476d07" alt="Lawn Mowing Service">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Lawn Mowing</h3>
+                    <p>Professional mowing with precision equipment for a clean, even cut every time.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Edging & Trimming</h3>
+                    <p>Crisp edges and precise trimming around walkways, beds, and obstacles.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Fertilization</h3>
+                    <p>Customized fertilization plans to keep your lawn healthy and green.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Weed Control</h3>
+                    <p>Effective weed prevention and elimination strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Residential</h3>
+                    <div class="price">From <span>$35</span>/visit</div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Lawn Mowing</li>
+                        <li><i class="fas fa-check"></i> Edging & Trimming</li>
+                        <li><i class="fas fa-check"></i> Blowing Cleanup</li>
+                        <li><i class="fas fa-check"></i> Basic Cleanup</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Commercial</h3>
+                    <div class="price">From <span>$150</span>/month</div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Weekly Maintenance</li>
+                        <li><i class="fas fa-check"></i> Fertilization</li>
+                        <li><i class="fas fa-check"></i> Weed Control</li>
+                        <li><i class="fas fa-check"></i> Seasonal Cleanup</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Premium</h3>
+                    <div class="price">Custom <span>Quote</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> All Services Included</li>
+                        <li><i class="fas fa-check"></i> Landscape Design</li>
+                        <li><i class="fas fa-check"></i> Irrigation Maintenance</li>
+                        <li><i class="fas fa-check"></i> Priority Scheduling</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-form">
+                    <h2>Book Your Service</h2>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="address" placeholder="Property Address" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="">Select Service</option>
+                                <option value="mowing">Lawn Mowing</option>
+                                <option value="full">Full Maintenance</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request Quote</button>
+                    </form>
+                </div>
+                <div class="booking-info">
+                    <h3>Why Choose Us?</h3>
+                    <ul class="benefits">
+                        <li><i class="fas fa-check-circle"></i> Licensed & Insured</li>
+                        <li><i class="fas fa-check-circle"></i> Free Estimates</li>
+                        <li><i class="fas fa-check-circle"></i> Same-Day Service Available</li>
+                        <li><i class="fas fa-check-circle"></i> Satisfaction Guaranteed</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Customer Support</li>
+                    </ul>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@greenlawnpro.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sat: 7am-7pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenLawn Pro</h3>
+                    <p>Professional lawn care services since 2010. Making lawns beautiful, one cut at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Garden St, Greenville</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@greenlawnpro.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenLawn Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
